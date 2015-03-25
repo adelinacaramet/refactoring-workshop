@@ -1,14 +1,13 @@
-package com.brandwatch.user.infrastructure.persistence;
+package userservice.infrastructure.persistence;
 
 import java.util.List;
 
-import com.google.common.base.Optional;
 import org.springframework.stereotype.Repository;
 
-import com.brandwatch.user.domain.model.User;
-import com.brandwatch.user.domain.repository.UserRepository;
-import com.brandwatch.user.infrastructure.exception.ResourceExistsException;
-import com.brandwatch.user.infrastructure.exception.ResourceNotFoundException;
+import userservice.domain.model.User;
+import userservice.domain.repository.UserRepository;
+import userservice.infrastructure.exception.ResourceExistsException;
+import userservice.infrastructure.exception.ResourceNotFoundException;
 
 @Repository
 public class UserRepositoryImpl implements UserRepository {

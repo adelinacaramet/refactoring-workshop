@@ -1,4 +1,4 @@
-package com.brandwatch.user.infrastructure.exception;
+package userservice.infrastructure.exception;
 
 public class ResourceExistsException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.brandwatch.user.application.exceptionhandler;
+package userservice.application.exceptionhandler;
 
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
@@ -28,8 +28,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.brandwatch.user.infrastructure.exception.ResourceExistsException;
-import com.brandwatch.user.infrastructure.exception.ResourceNotFoundException;
+import userservice.infrastructure.exception.ResourceExistsException;
+import userservice.infrastructure.exception.ResourceNotFoundException;
 
 @ControllerAdvice
 public class RestProcessingExceptionHandler extends ResponseEntityExceptionHandler {

@@ -1,4 +1,4 @@
-package com.brandwatch.user.application.resource;
+package userservice.application.resource;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.brandwatch.user.domain.model.User;
-import com.brandwatch.user.domain.model.UserBuilder;
-import com.brandwatch.user.domain.repository.UserRepository;
+import userservice.domain.model.User;
+import userservice.domain.model.UserBuilder;
+import userservice.domain.repository.UserRepository;
 
 @RestController
 @RequestMapping("/user")

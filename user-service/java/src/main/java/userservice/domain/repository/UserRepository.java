@@ -1,8 +1,8 @@
-package com.brandwatch.user.domain.repository;
+package userservice.domain.repository;
 
 import java.util.List;
 
-import com.brandwatch.user.domain.model.User;
+import userservice.domain.model.User;
 
 public interface UserRepository {
 

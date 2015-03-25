@@ -1,11 +1,11 @@
-package com.brandwatch.user.infrastructure.persistence;
+package userservice.infrastructure.persistence;
 
 import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import com.brandwatch.user.domain.model.User;
-import com.brandwatch.user.domain.model.UserBuilder;
+import userservice.domain.model.User;
+import userservice.domain.model.UserBuilder;
 
 public class UserData {
 

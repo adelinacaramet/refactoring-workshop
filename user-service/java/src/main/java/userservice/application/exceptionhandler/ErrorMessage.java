@@ -1,4 +1,4 @@
-package com.brandwatch.user.application.exceptionhandler;
+package userservice.application.exceptionhandler;
 
 public final class ErrorMessage {
     private final String message;

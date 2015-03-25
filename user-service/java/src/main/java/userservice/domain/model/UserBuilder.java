@@ -1,4 +1,4 @@
-package com.brandwatch.user.domain.model;
+package userservice.domain.model;
 
 public class UserBuilder {
     private long id;
